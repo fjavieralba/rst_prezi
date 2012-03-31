@@ -64,18 +64,6 @@ class Prezi(Directive):
             </div>
             """ % (width, align, preziID, preziID, width, height, preziID, preziID, preziID, width, height, preziID)
 
-
-
-        #prezi_url = 'http://www.youtube.com/embed/%s' % videoID
-        #div_block = '<div class="prezi" align="%s">' % align
-        #embed_block = '<iframe width="%s" height="%s" src="%s" frameborder="0"></iframe>' % (width, height, youtube_url)
-
-        return [
-             nodes.raw('', embed_html_code, format='html'),
-        #    nodes.raw('', div_block, format='html'),
-        #    nodes.raw('', embed_block, format='html'),
-        #    nodes.raw('', '</div>', format='html')
-        ]
-
+        return [ nodes.raw('', embed_html_code, format='html') ]
 
 directives.register_directive('prezi', Prezi)
