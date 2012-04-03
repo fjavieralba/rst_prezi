@@ -13,6 +13,9 @@ Usage
  	  :height: 480
  	  :text-align: center
 
+
+To know your ``PREZI_ID`` simply go to your presentation in prezi_ and click on *"share"* option. The URL you see contains your ``PREZI_ID``: http://prezi.com/PREZI_ID/some_title/
+
 Install
 -------
 
