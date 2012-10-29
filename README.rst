@@ -1,5 +1,5 @@
-Pelican-Prezi
-#############
+rst_prezi
+#########
 
 This small piece of code is an rst directive that allows you to embed prezi_ presentations in your rst_ docs. This can be used in Pelican_ blog generator since it uses rst as it source for generating pages.
 
@@ -16,8 +16,8 @@ Usage
 
 To know your ``PREZI_ID`` simply go to your presentation in prezi_ and click on *"share"* option. The URL you see contains your ``PREZI_ID``: http://prezi.com/PREZI_ID/some_title/
 
-Install
--------
+Install on Pelican
+------------------
 
 If you want to easily embed prezi presentations in your pelican blog, all you have to do is:
 
